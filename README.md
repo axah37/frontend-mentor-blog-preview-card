@@ -46,9 +46,9 @@ css clutter. Initial I had each of my elements with individual margins to align 
 
 I also learned that margins can get very weird with sibling block style elements. My margins were overlaying, causing the spacing to be less than what I expected. I learned that margins on block elements get collapsed in certain cases. 
 
-I also got to explore the box-shadow property to add the required detail to the card as per the challange. 
+I also got to explore the box-shadow property to add the required detail to the card as per the challenge. 
 
-Lastly, I got to explore using flex display in different orientations and using align-items and justify-content to center the elements.
+Lastly, I got to explore using flex display in different orientations and using align-items and justify-content to centre the elements.
 
 ### Continued development
 
