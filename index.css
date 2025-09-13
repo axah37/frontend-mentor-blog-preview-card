@@ -39,7 +39,7 @@ body {
 
 main {
     background-color: var(--white);
-    width: 350px;
+    max-width: 247px;
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
@@ -47,15 +47,27 @@ main {
     box-shadow: 0.5rem 0.5rem 0 black;
 }
 
+@media (width >= 374px) {
+    main {
+        max-width: 327px;;
+    }
+}
+
+@media (width > 457px) {
+    main {
+        max-width: 384px;
+    }
+}
+
 .blog-pic {
-    border-radius: 0.75rem;
-    margin: 16px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 0 16px 0;
 }
 
 .profile {
     display: flex;
     align-items: center;
-    padding: 1rem;
 }
 
 .profile-pic {
@@ -71,25 +83,38 @@ main {
 .title {
     font-weight: 800;
     color: var(--grey-950);
-    margin: 0px 16px 8px 16px;
+    margin: 16px 0 16px 0;
+}
+
+.title:hover{
+    color: var(--yellow);
+    cursor: pointer;
 }
 
 .summary {
     font-weight: 500;
     color: var(--grey-500);
-    margin-left: 16px;
 }
 
 .tag {
     background-color: var(--yellow);
-    margin-left: 16px;
+    color: var(--grey-950);
+    display: block;
     font-weight: 800;
-    padding: 8px;
-    border-radius: 0.25rem;
+    padding: 4px 12px 4px 12px;
+    border-radius: 4px;
     max-width: 5rem;
     text-align: center;
+    margin: 8px 0px 16px 0px;
 }
 
 .date {
-    margin: 16px
+    color: var(--grey-950);
+    font-weight: 500;
+    margin: 16px 0 16px 0;
+    display: block;
+}
+
+.container {
+    padding: 24px;
 }

@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="Frontend Mentor challange Blog Card by axah37"/>
+    <meta
+      name="description"
+      content="Frontend Mentor challange Blog Card by axah37"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap"
-      rel="stylesheet"
-    /> -->
     <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="./assets/images/illustration-article.svg"
+      type="image/svg+xml"
+    />
+
     <link
       rel="icon"
       type="image/png"
@@ -22,14 +26,27 @@
   </head>
   <body>
     <main>
-      <img class="blog-pic" src="./assets/images/illustration-article.svg" alt="blog-picture">
-      <span class="tag">Learning</span>
-      <span class="date">Published 21 Dec 2023</span>
-      <h2 class="title">HTML & CSS foundations</h2>
-      <p class="summary">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-      <div class="profile">
-        <img class="profile-pic" alt="profile-pic" src="./assets/images/image-avatar.webp">
-        <span class="profile-name">Greg Hooper</span>
+      <div class="container">
+        <img
+          class="blog-pic"
+          src="./assets/images/illustration-article.svg"
+          alt="blog-picture"
+        />
+        <span class="tag">Learning</span>
+        <span class="date">Published 21 Dec 2023</span>
+        <h2 class="title">HTML & CSS foundations</h2>
+        <p class="summary">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="profile">
+          <img
+            class="profile-pic"
+            alt="profile-pic"
+            src="./assets/images/image-avatar.webp"
+          />
+          <span class="profile-name">Greg Hooper</span>
+        </div>
       </div>
     </main>
   </body>
